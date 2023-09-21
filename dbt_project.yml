@@ -35,8 +35,5 @@ models:
   my_new_project:
     # Applies to all files under models/example/
     example:
-      materialized: view
-      +database: |
-        {%- if  target.name == "dv" -%} vaulted-bivouac-378616
-        {%- elif target.name == "default" -%} vaulted-bivouac-378616
-        {%- endif -%}
+      materialized: table
+      
