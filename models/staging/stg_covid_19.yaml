@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_covid_19
+    description: "staging table covid_19"
+    columns:  
+      - name: wikidata_id
+        description: "checking whether it is primary key or not"
+        tests:
+          - not_null
+
+
+        
+
