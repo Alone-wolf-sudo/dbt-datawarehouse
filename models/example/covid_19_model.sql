@@ -11,7 +11,7 @@
 
 with source_data as (
 
-    SELECT date FROM bigquery-public-data.covid19_open_data.covid19_open_data limit 10
+    SELECT * FROM bigquery-public-data.covid19_open_data.covid19_open_data limit 10
 
 )
 
