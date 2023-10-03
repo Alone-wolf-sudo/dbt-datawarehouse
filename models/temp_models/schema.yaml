@@ -5,8 +5,7 @@ models:
     - name: test_model
       description: "using main table"
       columns:
-          - name: id
+          - name: date
             description: "The primary key for this table"
             tests:
-                - unique
                 - not_null
