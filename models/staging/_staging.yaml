@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_new_model
+    description: "we are joining two tables and creating new table"
+    columns:
+      - name: ID
+        description: "primary key checking"
+        tests:
+          - not_null
+          - unique  
