@@ -37,8 +37,7 @@ models:
     # Applies to all files under models/example/
     staging:
       +materialized: table
-
-    temp_models:
+    Sources:
       +materialized: table
     
       

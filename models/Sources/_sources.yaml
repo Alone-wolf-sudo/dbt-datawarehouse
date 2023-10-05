@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: dbt_dataset
+    description: "name of the dataset"
+    tables:
+      - name: customers
+        description: "customers details will be stored in here"
+      - name: orders
+        description: "orders details will be stored in here"
+      - name: payments
+        description: "payments info is here"      
